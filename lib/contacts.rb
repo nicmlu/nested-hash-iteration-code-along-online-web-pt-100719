@@ -19,6 +19,7 @@ def remove_strawberry(contacts)
   data.each do |attribute, value|
     if attribute == favorite_ice_cream_flavors
       do favorite_ice_cream_flavors.shift
+      end
     end
   end
 end
